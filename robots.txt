@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zhiqiangyuan.github.io/multiimage_survey/sitemap.xml
