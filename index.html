@@ -833,24 +833,10 @@
     <p>Maintained by Pattern Recognition Center, WeChat AI, Tencent Inc. for research on Visual Macroscopic Intelligence.</p>
     <p style="margin-top:8px;font-size:.92rem;">Contact: <a href="mailto:seraphyuan@tencent.com" style="color:var(--accent);text-decoration:none;font-weight:780;">seraphyuan@tencent.com</a></p>
     <p style="margin-top:22px;font-size:.88rem;color:var(--muted);">
-      You are visitor #<span id="visitor-count" style="font-weight:840;color:var(--accent);">...</span>
+      You are visitor #<span id="busuanzi_value_site_uv" style="font-weight:840;color:var(--accent);">...</span>
     </p>
   </footer>
 
-  <script>
-    (function() {
-      var ns = 'zhiqiangyuan.github.io';
-      var key = 'multiimage_survey';
-      var el = document.getElementById('visitor-count');
-      fetch('https://api.countapi.xyz/hit/' + ns + '/' + key)
-        .then(function(r) { return r.json(); })
-        .then(function(d) {
-          el.textContent = d.value.toLocaleString();
-        })
-        .catch(function() {
-          el.textContent = '···';
-        });
-    })();
-  </script>
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
 </html>
